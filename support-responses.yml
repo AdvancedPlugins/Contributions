@@ -4,13 +4,13 @@ GlobalResponses:
     keywords: ["bug", "error", "issue", "crash"]
     response: "For bugs and errors, please report them on our github <#601752705328873472> so our development team can track and address them."
   performance_issues:
-    keywords: ["lag", "slow"]
+    keywords: ["lag", "slow", "timings"]
     response: "Experiencing performance issues? Please report them on our Github: <#601752705328873472>"
   feature_request:
     keywords: ["feature", "request", "add", "suggest"]
     response: "For feature requests, please submit them on our GitHub <#601752705328873472> for the team to review."
   licensing_issues:
-    keywords: ["license"]
+    keywords: ["license", "enterprise"]
     response: "Having issues with your license or purchase? List the amount of servers you are using this plugin on, our staff team will be with you shortly."
 AdvancedEnchantments:
   ui:
