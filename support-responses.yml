@@ -1,62 +1,62 @@
 GlobalResponses:
   bug_report:
-    keywords: [bug, error, issue, crash]
+    keywords: ["bug", "error", "issue", "crash"]
     response: "Sorry to hear you're experiencing this! For bugs and errors, please report them on our github <#601752705328873472> so our development team can track and address them."
   performance_issues:
-    keywords: [lag, slow]
+    keywords: ["lag", "slow"]
     response: "Experiencing performance issues? Please report them on our Github: <#601752705328873472>"
   feature_request:
-    keywords: [feature, request, add, suggest]
+    keywords: ["feature", "request", "add", "suggest"]
     response: "Thank you for the suggestion! We value user feedback. Please submit your feature request on our GitHub <#601752705328873472> for the team to review."
   general_support:
-    keywords: [help, support, assist, question]
+    keywords: ["help", "support", "assist", "question"]
     response: "Need assistance? Check our general support guide https://wiki.advancedplugins.net."
   licensing_issues:
-    keywords: [license]
+    keywords: ["license"]
     response: "Having issues with your license or purchase? List the amount of servers you are using this plugin on, our staff team will be with you shortly."
 AdvancedEnchantments:
   ui:
-    keywords: [ui]
-    response: For information on AdvancedEnchantments UI, check out the wiki https://ae.advancedplugins.net/advancedenchantments-ui
+    keywords: ["ui"]
+    response: "For information on AdvancedEnchantments UI, check out the wiki https://ae.advancedplugins.net/advancedenchantments-ui"
   list_of_enchantments:
-    keywords: [list, enchantment]
-    response: Looking for a List of Enchantments? Find it here https://ae.advancedplugins.net/enchantments/list-of-enchantments
+    keywords: ["list", "enchantment"]
+    response: "Looking for a List of Enchantments? Find it here https://ae.advancedplugins.net/enchantments/list-of-enchantments"
   creating_enchantments:
-    keywords: [create, enchantment]
-    response: For guidance on Creating Enchantments, see this wiki page https://ae.advancedplugins.net/enchantments/creating-enchantments
+    keywords: ["create", "enchantment"]
+    response: "For guidance on Creating Enchantments, see this wiki page https://ae.advancedplugins.net/enchantments/creating-enchantments"
   enchantment_conditions:
-    keywords: [condition]
-    response: Learn about Enchantment Conditions on this wiki page https://wiki.advancedplugins.net/abilities/conditions
+    keywords: ["condition"]
+    response: "Learn about Enchantment Conditions on this wiki page https://wiki.advancedplugins.net/abilities/conditions"
   repeating_enchantments:
-    keywords: [repeat, enchantment]
-    response: For details on Repeating Enchantments, check out the wiki https://ae.advancedplugins.net/enchantments/repeating-enchantments
+    keywords: ["repeat", "enchantment"]
+    response: "For details on Repeating Enchantments, check out the wiki https://ae.advancedplugins.net/enchantments/repeating-enchantments"
   commands_permissions:
-    keywords: [command, permission]
-    response: Find details on Commands & Permissions here https://ae.advancedplugins.net/general-information/commands-permissions
+    keywords: ["command", "permission"]
+    response: "Find details on Commands & Permissions here https://ae.advancedplugins.net/general-information/commands-permissions"
   languages_localization:
-    keywords: [language, localize]
-    response: For Languages and Localization guidance, visit the wiki https://ae.advancedplugins.net/general-information/languages
+    keywords: ["language", "localize"]
+    response: "For Languages and Localization guidance, visit the wiki https://ae.advancedplugins.net/general-information/languages"
   give_plugin_items:
-    keywords: [give, item]
-    response: Want to know how to Give Plugin Items? Here's the wiki link https://ae.advancedplugins.net/general-information/giving-plugin-items
+    keywords: ["give", "item"]
+    response: "Want to know how to Give Plugin Items? Here's the wiki link https://ae.advancedplugins.net/general-information/giving-plugin-items"
   toggling_features:
-    keywords: [toggle, feature]
-    response: For information on Toggling Features, see this wiki page https://ae.advancedplugins.net/general-information/toggling-features
+    keywords: ["toggle", "feature"]
+    response: "For information on Toggling Features, see this wiki page https://ae.advancedplugins.net/general-information/toggling-features"
   random_loot:
-    keywords: [random, loot, trade, drop]
-    response: Learn about Random Loot, Villager Trades, and Mob Drops on this wiki page https://ae.advancedplugins.net/configuration/random-loot-villager-trades-and-mob-drops
+    keywords: ["random", "loot", "trade", "drop"]
+    response: "Learn about Random Loot, Villager Trades, and Mob Drops on this wiki page https://ae.advancedplugins.net/configuration/random-loot-villager-trades-and-mob-drops"
   default_files:
-    keywords: [default, file]
-    response: For Default Files and configurations, visit this link: https://github.com/GC-spigot/AdvancedEnchantments/tree/master/Default%20Files
+    keywords: ["default", "file"]
+    response: "For Default Files and configurations, visit this link: https://github.com/GC-spigot/AdvancedEnchantments/tree/master/Default%20Files"
   enchanter:
-    keywords: [enchanter]
-    response: Check out details about the Enchanter here https://ae.advancedplugins.net/configuration/enchanter
+    keywords: ["enchanter"]
+    response: "Check out details about the Enchanter here https://ae.advancedplugins.net/configuration/enchanter"
   souls:
-    keywords: [soul]
-    response: For information related to Souls, see our wiki https://ae.advancedplugins.net/configuration/soul-enchantments
+    keywords: ["soul"]
+    response: "For information related to Souls, see our wiki https://ae.advancedplugins.net/configuration/soul-enchantments"
   essentials_kits:
-    keywords: [essential, kit]
-    response: For incorporating Enchantments In Essentials Kits, see this guide https://ae.advancedplugins.net/configuration/enchantments-in-essentials-kits
+    keywords: ["essential", "kit"]
+    response: "For incorporating Enchantments In Essentials Kits, see this guide https://ae.advancedplugins.net/configuration/enchantments-in-essentials-kits"
   gkits:
-    keywords: [gkit]
-    response: Want to know more about GKits? Here's the wiki link https://ae.advancedplugins.net/configuration/gkits
+    keywords: ["gkit"]
+    response: "Want to know more about GKits? Here's the wiki link https://ae.advancedplugins.net/configuration/gkits"
