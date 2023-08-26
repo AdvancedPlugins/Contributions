@@ -1,6 +1,6 @@
 # AdvancedPlugins Ticket Response Library
 
-Welcome to the **AdvancedPlugins Ticket Response Library**! This repository houses the `.yaml` configuration for automatic responses to common support queries about our Spigot plugins. Our goal is to streamline support, improve user experience, and engage the community in helping us make this system even better.
+Welcome to the **AdvancedPlugins Ticket Response Library**! This repository houses the `.yml` configuration for automatic responses to common support queries about our Spigot plugins. Our goal is to streamline support, improve user experience, and engage the community in helping us make this system even better.
 
 ## Repository Structure
 
@@ -9,8 +9,8 @@ Welcome to the **AdvancedPlugins Ticket Response Library**! This repository hous
 ## How to Contribute
 
 1. **Fork the Repository**: Click the 'Fork' button at the top right of this page to create a personal copy of this repository.
-2. **Clone Your Fork**: Clone your forked repo to your local machine. Use `git clone <your-fork-url>`.
-3. **Make Your Changes**: Update the `support-responses.yaml` with additional keyword-response pairs or modify existing ones. Ensure you follow the established format and guidelines.
+2. **Clone Your Fork**: Clone your forked repo to your local machine.
+3. **Make Your Changes**: Update the `support-responses.yml` with additional keyword-response pairs or modify existing ones. Ensure you follow the established format and guidelines.
 4. **Commit and Push**: Once you're done with your changes, commit them with a meaningful commit message and push to your forked repository.
 5. **Open a Pull Request**: Go to the 'Pull Requests' tab on this repository and click 'New Pull Request'. Compare the changes and submit your pull request.
 
