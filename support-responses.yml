@@ -1,16 +1,14 @@
+# issues / feature reqs channel id: 601752705328873472 
 GlobalResponses:
   bug_report:
     keywords: ["bug", "error", "issue", "crash"]
-    response: "Sorry to hear you're experiencing this! For bugs and errors, please report them on our github <#601752705328873472> so our development team can track and address them."
+    response: "For bugs and errors, please report them on our github <#601752705328873472> so our development team can track and address them."
   performance_issues:
     keywords: ["lag", "slow"]
     response: "Experiencing performance issues? Please report them on our Github: <#601752705328873472>"
   feature_request:
     keywords: ["feature", "request", "add", "suggest"]
-    response: "Thank you for the suggestion! We value user feedback. Please submit your feature request on our GitHub <#601752705328873472> for the team to review."
-  general_support:
-    keywords: ["help", "support", "assist", "question"]
-    response: "Need assistance? Check our general support guide https://wiki.advancedplugins.net."
+    response: "For feature requests, please submit them on our GitHub <#601752705328873472> for the team to review."
   licensing_issues:
     keywords: ["license"]
     response: "Having issues with your license or purchase? List the amount of servers you are using this plugin on, our staff team will be with you shortly."
@@ -60,3 +58,6 @@ AdvancedEnchantments:
   gkits:
     keywords: ["gkit"]
     response: "Want to know more about GKits? Here's the wiki link https://ae.advancedplugins.net/configuration/gkits"
+  general_support:
+    keywords: ["help", "support", "assist", "question", "faq"]
+    response: "Need assistance? Check our general support guide https://ae.advancedplugins.net/plugin-information/faq"
