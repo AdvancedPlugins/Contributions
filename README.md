@@ -4,7 +4,7 @@ Welcome to the **AdvancedPlugins Ticket Response Library**! This repository hous
 
 ## Repository Structure
 
-- **support-responses.yaml**: This file contains the primary structure for keyword-based ticket responses. Each plugin has its own section, with categorized responses based on common queries and issues.
+- **support-responses.yml**: This file contains the primary structure for keyword-based ticket responses. Each plugin has its own section, with categorized responses based on common queries and issues.
 
 ## How to Contribute
 
