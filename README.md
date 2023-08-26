@@ -15,7 +15,7 @@ Welcome to the **AdvancedPlugins Ticket Response Library**! This repository hous
 5. **Open a Pull Request**: Go to the 'Pull Requests' tab on this repository and click 'New Pull Request'. Compare the changes and submit your pull request.
 
 ### Guidelines
-
+We are utilizing stanford-corenlp to get lemmas from every inquiry. Keep this in mind when selecting keywords.
 - **Clarity**: Responses should be clear, concise, and directly address the issue.
 - **Relevance**: Ensure that keywords and responses are relevant to the specific plugin or feature they're associated with.
 - **Length**: Responses should be brief yet informative. Avoid overly long explanations; instead, link to the wiki or documentation where appropriate.
