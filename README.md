@@ -1,6 +1,6 @@
-# AdvancedPlugins Ticket Response Library
+# AdvancedPlugins Community
 
-Welcome to the **AdvancedPlugins Ticket Response Library**! This repository houses the `.yml` configuration for automatic responses to common support queries about our Spigot plugins. Our goal is to streamline support, improve user experience, and engage the community in helping us make this system even better.
+Welcome to the **AdvancedPlugins Community** repository! This repository houses the `.yml` configuration for automatic responses to common support queries about our Spigot plugins. Our goal is to streamline support, improve user experience, and engage the community in helping us make this system even better.
 
 ## Repository Structure
 
