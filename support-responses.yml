@@ -17,11 +17,11 @@ AdvancedEnchantments:
     keywords: ["ui"]
     response: "For information on AdvancedEnchantments UI, check out the wiki https://ae.advancedplugins.net/advancedenchantments-ui"
   list_of_enchantments:
-    keywords: ["list", "enchantment"]
+    keywords: ["list"]
     response: "Looking for a List of Enchantments? Find it here https://ae.advancedplugins.net/enchantments/list-of-enchantments"
   creating_enchantments:
-    keywords: ["create", "enchantment"]
-    response: "For guidance on Creating Enchantments, see this wiki page https://ae.advancedplugins.net/enchantments/creating-enchantments"
+    keywords: ["create", "enchantment", "enchant"]
+    response: "For guidance on Custom Enchantments, see this wiki page https://ae.advancedplugins.net/enchantments/creating-enchantments"
   enchantment_conditions:
     keywords: ["condition"]
     response: "Learn about Enchantment Conditions on this wiki page https://wiki.advancedplugins.net/abilities/conditions"
@@ -29,10 +29,10 @@ AdvancedEnchantments:
     keywords: ["repeat", "enchantment"]
     response: "For details on Repeating Enchantments, check out the wiki https://ae.advancedplugins.net/enchantments/repeating-enchantments"
   commands_permissions:
-    keywords: ["command", "permission"]
+    keywords: ["command", "permission", "perm", "cmd"]
     response: "Find details on Commands & Permissions here https://ae.advancedplugins.net/general-information/commands-permissions"
   languages_localization:
-    keywords: ["language", "localize"]
+    keywords: ["language", "localize", "lang", "spanish", "locale"]
     response: "For Languages and Localization guidance, visit the wiki https://ae.advancedplugins.net/general-information/languages"
   give_plugin_items:
     keywords: ["give", "item"]
