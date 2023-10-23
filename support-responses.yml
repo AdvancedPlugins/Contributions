@@ -61,3 +61,6 @@ AdvancedEnchantments:
   general_support:
     keywords: ["help", "support", "assist", "question", "faq"]
     response: "Need assistance? Check our general support guide https://ae.advancedplugins.net/plugin-information/faq"
+  old_targets:
+    keywords: ["%victim%", "%attacker", "<aoe>"]
+    response: "%victim%/%attacker% has been replaced with a new system "Targets". Convert them into its new format https://wiki.advancedplugins.net/abilities/targets"
