@@ -1,29 +1,38 @@
 {
     "ALL_ARMOR": {
+        "formatted": "All Armor",
         "description": "Applies to all armor pieces (helmets, chestplates, leggings, boots) of any material type (leather, chainmail, iron, gold, diamond, netherite)"
     },
     "ALL_SWORD": {
+        "formatted": "All Swords",
         "description": "Applies to all sword types (wooden, stone, iron, gold, diamond, netherite)"
     },
     "ALL_AXE": {
+        "formatted": "All Axes",
         "description": "Applies to all axe types (wooden, stone, iron, gold, diamond, netherite) - both as a tool and weapon"
     },
     "ALL_SPADE": {
+        "formatted": "All Shovels",
         "description": "Applies to all shovel types (wooden, stone, iron, gold, diamond, netherite)"
     },
     "ALL_PICKAXE": {
+        "formatted": "All Pickaxes",
         "description": "Applies to all pickaxe types (wooden, stone, iron, gold, diamond, netherite)"
     },
     "ALL_HELMET": {
+        "formatted": "All Helmets",
         "description": "Applies to all helmet types (leather, chainmail, iron, gold, diamond, netherite)"
     },
     "ALL_CHESTPLATE": {
+        "formatted": "All Chestplates",
         "description": "Applies to all chestplate types (leather, chainmail, iron, gold, diamond, netherite)"
     },
     "ALL_LEGGINGS": {
+        "formatted": "All Leggings",
         "description": "Applies to all leggings types (leather, chainmail, iron, gold, diamond, netherite)"
     },
     "ALL_BOOTS": {
+        "formatted": "All Boots",
         "description": "Applies to all boots types (leather, chainmail, iron, gold, diamond, netherite)"
     }
 }
