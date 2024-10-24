@@ -1,0 +1,212 @@
+{
+    "%can break%": {
+        "description": "True if a player can break the block"
+    },
+    "%faction land%": {
+        "description": "Gets faction land player is in"
+    },
+    "%food%": {
+        "description": "Food level of player"
+    },
+    "%is bleeding%": {
+        "description": "True if the player is bleeding via McMMO"
+    },
+    "%helmet%": {
+        "description": "Equipped Helmet"
+    },
+    "%chestplate%": {
+        "description": "Equipped Chestplate"
+    },
+    "%leggings%": {
+        "description": "Equipped Leggings"
+    },
+    "%boots%": {
+        "description": "Equipped Boots"
+    },
+    "%is blocking%": {
+        "description": "True if the player is blocking"
+    },
+    "%is flying%": {
+        "description": "True if the player is flying"
+    },
+    "%is sneaking%": {
+        "description": "True if the player is sneaking"
+    },
+    "%level of skill <skill>%": {
+        "description": "Level of a player's McMMO skill"
+    },
+    "%permissions%": {
+        "description": "All player's permissions"
+    },
+    "%is op%": {
+        "description": "True if player has OP"
+    },
+    "%block below%": {
+        "description": "Block type player/mob is standing on"
+    },
+    "%trigger type%": {
+        "description": "Type of trigger"
+    },
+    "%combo%": {
+        "description": "Current combo"
+    },
+    "%custom name%": {
+        "description": "Custom name of player/mob"
+    },
+    "%has enchantment in hand of <enchant>%": {
+        "description": "Whether player/mob has an enchantment on the item in its main hand"
+    },
+    "%has enchantment in hand of <enchant> level <level>%": {
+        "description": "Whether player/mob has an enchantment of a specific level on the item in its main hand"
+    },
+    "%has enchantment in <armor slot> of <enchantment>%": {
+        "description": "Whether player/mob has an enchantment on the item in a specific armor slot"
+    },
+    "%has potion effect <effect>%": {
+        "description": "Whether player/mob has a potion effect"
+    },
+    "%item in hand level <enhantment>%": {
+        "description": "Level of enchantment on item in main hand"
+    },
+    "%health%": {
+        "description": "The health of player/mob"
+    },
+    "%health percentage%": {
+        "description": "Percentage of health left"
+    },
+    "%is critical%": {
+        "description": "Whether attack was a critical hit"
+    },
+    "%is gliding%": {
+        "description": "Whether player/mob is gliding"
+    },
+    "%is holding%": {
+        "description": "Type of item currently held by player/mob"
+    },
+    "%is hostile%": {
+        "description": "Whether mob is hostile"
+    },
+    "%is damageable%": {
+        "description": "Whether the player/mob can be damaged"
+    },
+    "%is on fire%": {
+        "description": "Whether player/mob is on fire"
+    },
+    "%is removal%": {
+        "description": "Whether effect is removal (EFFECT_STATIC, HELD, SHIFT, SPRINT)"
+    },
+    "%is under water%": {
+        "description": "Whether player/mob is underwater"
+    },
+    "%item slot%": {
+        "description": "Slot of item that triggered enchant"
+    },
+    "%max health%": {
+        "description": "Maximum health of player/mob"
+    },
+    "%mob type%": {
+        "description": "Type of mob"
+    },
+    "%name%": {
+        "description": "Name of player/mob"
+    },
+    "%nearby mobs%": {
+        "description": "Amount of mobs in a 10 block radius"
+    },
+    "%offhand item%": {
+        "description": "Type of item currently held in offhand by player/mob"
+    },
+    "%players%": {
+        "description": "Amount of players in a 10 block radius"
+    },
+    "%potion effect level <effect> <level>%": {
+        "description": "Whether player/mob has a potion effect of a specifc level"
+    },
+    "%time%": {
+        "description": "Time of the world"
+    },
+    "%x%": {
+        "description": "X coordinate of player/mob"
+    },
+    "%y%": {
+        "description": "Y coordinate of player/mob"
+    },
+    "%z%": {
+        "description": "Z coordinate of player/mob"
+    },
+    "%x double%": {
+        "description": "More precise X coordinate of player/mob"
+    },
+    "%y double%": {
+        "description": "More precise Y coordinate of player/mob"
+    },
+    "%z double%": {
+        "description": "More precise Z coordinate of player/mob"
+    },
+    "%block tags%": {
+        "description": "Array of tags a target block has"
+    },
+    "%is riding%": {
+        "description": "Whether player/mob is riding player/mob (or is a passenger)"
+    },
+    "%passengers%": {
+        "description": "Passengers of the player/mob"
+    },
+    "%is headshot%": {
+        "description": "Whether an arrow/trident hit was a headshot"
+    },
+    "%force%": {
+        "description": "Force of bow when firing arrow"
+    },
+    "%damaged from behind%": {
+        "description": "If victim was damaged from behind by enemy"
+    },
+    "%projectile type%": {
+        "description": "Type of projectile ('arrow' or 'trident')"
+    },
+    "%exp%": {
+        "description": "Amount of EXP to give/drop"
+    },
+    "%caught%": {
+        "description": "Type of item player caught"
+    },
+    "%maximum durability%": {
+        "description": "Maximum durability of item"
+    },
+    "%block x%": {
+        "description": "X coordinate of block broken"
+    },
+    "%block y%": {
+        "description": "Y coordinate of block broken"
+    },
+    "%block z%": {
+        "description": "Z coordinate of block broken"
+    },
+    "%block type%": {
+        "description": "Type of block"
+    },
+    "%block type lowercase%": {
+        "description": "Type of block but all letters are lowercase"
+    },
+    "%block drop type%": {
+        "description": "Type of item block will drop"
+    },
+    "%is crop%": {
+        "description": "Whether broken block was a crop"
+    },
+    "%is fully grown%": {
+        "description": "Whether broken crop was fully grown"
+    },
+    "%block location%": {
+        "description": "Location of the block (used in location parameter)"
+    },
+    "%damage%": {
+        "description": "Final damage"
+    },
+    "%raw damage%": {
+        "description": "Damage before armor"
+    },
+    "%damage cause%": {
+        "description": "Cause of damage"
+    }
+}
