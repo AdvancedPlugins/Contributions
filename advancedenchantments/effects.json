@@ -1,0 +1,460 @@
+{
+  "actions": {
+    "ACTION_BAR": {
+      "syntax": "ACTION_BAR:<TEXT>",
+      "description": "Send an actionbar message"
+    },
+    "ADD_MONEY": {
+      "syntax": "ADD_MONEY:<AMOUNT>",
+      "description": "Add vault money to the player"
+    },
+    "REMOVE_MONEY": {
+      "syntax": "REMOVE_MONEY:<AMOUNT>",
+      "description": "Removes vault money to the player"
+    },
+    "ADD_DURABILITY_ARMOR": {
+      "syntax": "ADD_DURABILITY_ARMOR:<AMOUNT>",
+      "description": "Repair armor"
+    },
+    "ADD_DURABILITY_CURRENT_ITEM": {
+      "syntax": "ADD_DURABILITY_CURRENT_ITEM:<AMOUNT>",
+      "description": "Add durability to the item used"
+    },
+    "ADD_DURABILITY_ITEM": {
+      "syntax": "ADD_DURABILITY_ITEM:<AMOUNT/SLOT>:<AMOUNT>",
+      "description": "Add durability to the item"
+    },
+    "ADD_FOOD": {
+      "syntax": "ADD_FOOD:<AMOUNT>",
+      "description": "Modify player's food level"
+    },
+    "ADD_HEALTH": {
+      "syntax": "ADD_HEALTH:<HEALTH>",
+      "description": "Add health to entity"
+    },
+    "ADD_WALK_SPEED": {
+      "syntax": "ADD_WALK_SPEED:<SPEED>:[TICKS]",
+      "description": "Adds to the players walk speed (from -1 to 1) without applying potion"
+    },
+    "AIR": {
+      "syntax": "AIR:<AMOUNT>",
+      "description": "Modify player's remaining air"
+    },
+    "AUTO_REEL": {
+      "syntax": "AUTO_REEL",
+      "description": "Automatically reels in the fishing rod when it gets a bite"
+    },
+    "BLEED": {
+      "syntax": "BLEED:<TICKS>",
+      "description": "Steal entity bleed"
+    },
+    "BLOOD": {
+      "syntax": "BLOOD",
+      "description": "Display blood effect"
+    },
+    "BOOST": {
+      "syntax": "BOOST:[DIRECTION]:[AMOUNT]",
+      "description": "Boost entity up in air"
+    },
+    "BREAK_BLOCK": {
+      "syntax": "BREAK_BLOCK",
+      "description": "Break block"
+    },
+    "BREAK_TREE": {
+      "syntax": "BREAK_TREE:<MAX_LOGS>:<MAX_LEAVES>",
+      "description": "Break a whole tree at once"
+    },
+    "BROADCAST": {
+      "syntax": "BROADCAST:<TEXT>",
+      "description": "Broadcast a message"
+    },
+    "BROADCAST_PERMISSION": {
+      "syntax": "BROADCAST_PERMISSION:<PERMISSION>:<TEXT>",
+      "description": "Broadcast a message to users who have permission"
+    },
+    "BURN": {
+      "syntax": "BURN:<SECONDS>",
+      "description": "Set an entity on fire"
+    },
+    "CACTUS": {
+      "syntax": "CACTUS",
+      "description": "Display cactus effect"
+    },
+    "CANCEL_USE": {
+      "syntax": "CANCEL_USE:<MATERIAL>:<TICKS>",
+      "description": "Cancel use of a material, e.g. ENDER_PEARL"
+    },
+    "CANCEL_EVENT": {
+      "syntax": "CANCEL_EVENT",
+      "description": "Cancel Event, e.g. an attack"
+    },
+    "CONSOLE_COMMAND": {
+      "syntax": "CONSOLE_COMMAND:<COMMAND>",
+      "description": "Run command through console"
+    },
+    "CURE": {
+      "syntax": "CURE:<POTION>",
+      "description": "Remove non-permanent potion effect"
+    },
+    "CURE_PERMANENT": {
+      "syntax": "CURE_PERMANENT:<POTION>",
+      "description": "Remove permanent potion effect"
+    },
+    "DECREASE_DAMAGE": {
+      "syntax": "DECREASE_DAMAGE:<AMOUNT>",
+      "description": "Decrease damage by percentage"
+    },
+    "DELETE_ITEM": {
+      "syntax": "DELETE_ITEM:[AMOUNT]",
+      "description": "Delete current item from inventory"
+    },
+    "DISABLE_ACTIVATION": {
+      "syntax": "DISABLE_ACTIVATION:<NAME>:<SECONDS>",
+      "description": "Disable activation for seconds"
+    },
+    "DISABLE_KNOCKBACK": {
+      "syntax": "DISABLE_KNOCKBACK:<TICKS>",
+      "description": "Disable entity's knockback for time"
+    },
+    "DISARM": {
+      "syntax": "DISARM",
+      "description": "Disarm Entity"
+    },
+    "DO_HARM": {
+      "syntax": "DO_HARM:<HEALTH>:<DAMAGE_CAUSE>",
+      "description": "Harm an entity by doing health damage"
+    },
+    "DOUBLE_DAMAGE": {
+      "syntax": "DOUBLE_DAMAGE",
+      "description": "Double damage"
+    },
+    "DROP_HEAD": {
+      "syntax": "DROP_HEAD",
+      "description": "Drop player or mob head"
+    },
+    "DROP_ITEM": {
+      "syntax": "DROP_ITEM:<MATERIAL>:[AMOUNT]",
+      "description": "Drop an item in a location"
+    },
+    "DROP_HELD_ITEM": {
+      "syntax": "DROP_HELD_ITEM",
+      "description": "Make entity drop held item to ground"
+    },
+    "OPEN_CRAFTING_TABLE": {
+      "syntax": "OPEN_CRAFTING_TABLE",
+      "description": "Open a virtual crafting table"
+    },
+    "OPEN_ENDERCHEST": {
+      "syntax": "OPEN_ENDERCHEST",
+      "description": "Open a virtual enderchest"
+    },
+    "ENTITY_EFFECT": {
+      "syntax": "ENTITY_EFFECT:<ENTITY_EFFECT>",
+      "description": "Play Entity Effect"
+    },
+    "EXP": {
+      "syntax": "EXP:<AMOUNT>",
+      "description": "Drop Experience Orbs"
+    },
+    "EXPLODE": {
+      "syntax": "EXPLODE:<POWER>:<FIRE (true/false)>:<BREAK BLOCKS (true/false)>",
+      "description": "Create an explosion"
+    },
+    "EXTINGUISH": {
+      "syntax": "EXTINGUISH",
+      "description": "Extinguish an entity"
+    },
+    "FIREBALL": {
+      "syntax": "FIREBALL",
+      "description": "Shoot a fireball"
+    },
+    "PROJECTILE": {
+      "syntax": "PROJECTILE:<TYPE>",
+      "description": "Fire a projectile"
+    },
+    "FLY": {
+      "syntax": "FLY:[TICKS]",
+      "description": "Toggle player's flight"
+    },
+    "FLY_SPEED": {
+      "syntax": "FLY_SPEED:<SPEED>:[TICKS]",
+      "description": "Sets the players fly speed (from -1 to 1) without applying potion"
+    },
+    "FREEZE": {
+      "syntax": "FREEZE:<TICKS>",
+      "description": "Freeze Entity"
+    },
+    "GIVE_ITEM": {
+      "syntax": "GIVE_ITEM:<MATERIAL>:[AMOUNT]",
+      "description": "Give items to user/location"
+    },
+    "HALF_DAMAGE": {
+      "syntax": "HALF_DAMAGE",
+      "description": "Half damage effect"
+    },
+    "IGNORE_ARMOR_DAMAGE": {
+      "syntax": "IGNORE_ARMOR_DAMAGE",
+      "description": "Cancel armor durability reduction"
+    },
+    "IGNORE_ARMOR_PROTECTION": {
+      "syntax": "IGNORE_ARMOR_PROTECTION",
+      "description": "Ignores armor damage reduction"
+    },
+    "INCREASE_DAMAGE": {
+      "syntax": "INCREASE_DAMAGE:<AMOUNT>",
+      "description": "Increase damage by percentage"
+    },
+    "INVINCIBLE": {
+      "syntax": "INVINCIBLE",
+      "description": "Toggle entity's invincibility"
+    },
+    "INVERT_VARIABLE": {
+      "syntax": "INVERT_VARIABLE:<NAME>",
+      "description": "Invert boolean's status between true/false"
+    },
+    "KILL": {
+      "syntax": "KILL",
+      "description": "Kill an entity"
+    },
+    "LIGHTNING": {
+      "syntax": "LIGHTNING<REAL (true/false)>",
+      "description": "Strike a lightning"
+    },
+    "MESSAGE": {
+      "syntax": "MESSAGE:<TEXT>",
+      "description": "Send a message"
+    },
+    "MORE_DROPS": {
+      "syntax": "MORE_DROPS:<AMOUNT>",
+      "description": "Multiply drops"
+    },
+    "NEGATE_DAMAGE": {
+      "syntax": "NEGATE_DAMAGE:<AMOUNT>",
+      "description": "Negate a specified amount of damage"
+    },
+    "PARTICLE": {
+      "syntax": "PARTICLE:<PARTICLE>:<AMOUNT>:<OFFSET>",
+      "description": "Play particles at a location"
+    },
+    "PERMISSION": {
+      "syntax": "PERMISSION:<TEXT>",
+      "description": "Toggle player's permission"
+    },
+    "PLANT_SEEDS": {
+      "syntax": "PLANT_SEEDS:<RADIUS>:[SEEDS]",
+      "description": "Plant seeds in radius"
+    },
+    "PLAYER_COMMAND": {
+      "syntax": "PLAYER_COMMAND:<COMMAND>",
+      "description": "Run command through player"
+    },
+    "PLAY_SOUND": {
+      "syntax": "PLAY_SOUND:<SOUND>:[PITCH]:[VOLUME]",
+      "description": "Play sound for a specific player"
+    },
+    "PLAY_SOUND_OUTLOUD": {
+      "syntax": "PLAY_SOUND_OUTLOUD:<SOUND>:[PITCH]:[VOLUME]",
+      "description": "Play sound at a location"
+    },
+    "POTION": {
+      "syntax": "POTION:<POTION>:<LEVEL>:[TICKS]",
+      "description": "Add potion effect"
+    },
+    "POTION_OVERRIDE": {
+      "syntax": "POTION_OVERRIDE:<POTION>:<LEVEL>:[TICKS]",
+      "description": "Force-add potion effect"
+    },
+    "PULL_AWAY": {
+      "syntax": "PULL_AWAY:<DISTANCE>",
+      "description": "Pull away an entity"
+    },
+    "PULL_CLOSER": {
+      "syntax": "PULL_CLOSER:<AMOUNT>",
+      "description": "Pull an entity closer"
+    },
+    "PUMPKIN": {
+      "syntax": "PUMPKIN:<TICKS>",
+      "description": "Put a pumpkin on entity's head"
+    },
+    "REMOVE_ARMOR": {
+      "syntax": "REMOVE_ARMOR:<ARMOR TYPE>",
+      "description": "Remove a specific armor piece"
+    },
+    "REMOVE_HEALTH_DAMAGE": {
+      "syntax": "REMOVE_HEALTH_DAMAGE:<HEALTH>",
+      "description": "Remove health from an entity with damage effect"
+    },
+    "REMOVE_HEALTH_DAMAGE_TOTEM": {
+      "syntax": "REMOVE_HEALTH_DAMAGE_TOTEM:<HEALTH>",
+      "description": "Remove health from an entity with damage effect while allowing the use of totem"
+    },
+    "REMOVE_HEALTH": {
+      "syntax": "REMOVE_HEALTH:<HEALTH>",
+      "description": "Remove health from an entity"
+    },
+    "REMOVE_HEALTH_TOTEM": {
+      "syntax": "REMOVE_HEALTH_TOTEM:<HEALTH>",
+      "description": "Remove health from an entity while allowing the use of totem"
+    },
+    "REMOVE_RANDOM_ARMOR": {
+      "syntax": "REMOVE_RANDOM_ARMOR",
+      "description": "Remove a random armor piece"
+    },
+    "REPAIR": {
+      "syntax": "REPAIR",
+      "description": "Repair item"
+    },
+    "REVIVE": {
+      "syntax": "REVIVE",
+      "description": "Revive an entity"
+    },
+    "SCREEN_FREEZE": {
+      "syntax": "SCREEN_FREEZE:<TICKS>",
+      "description": "Screen Freeze Entity"
+    },
+    "SET_AIR": {
+      "syntax": "SET_AIR:<AMOUNT>",
+      "description": "Set player's remaining air"
+    },
+    "SET_BLOCK": {
+      "syntax": "SET_BLOCK:<MATERIAL>",
+      "description": "Set block to a type"
+    },
+    "SET_MAX_CATCH_TIME": {
+      "syntax": "SET_MAX_CATCH_TIME:<TICKS>",
+      "description": "Set max. Time for fishing"
+    },
+    "SET_MIN_CATCH_TIME": {
+      "syntax": "SET_MIN_CATCH_TIME:<TICKS>",
+      "description": "Set min. Time for fishing"
+    },
+    "SHUFFLE_HOTBAR": {
+      "syntax": "SHUFFLE_HOTBAR",
+      "description": "Shuffle player's hotbar"
+    },
+    "SMELT": {
+      "syntax": "SMELT",
+      "description": "Smelt drops"
+    },
+    "SNOWBLIND": {
+      "syntax": "SNOWBLIND",
+      "description": "Cancel Event, e.g. an attack"
+    },
+    "SPAWN_ARROWS": {
+      "syntax": "SPAWN_ARROWS",
+      "description": "Spawn flood of arrows from above"
+    },
+    "SPAWN_BLOCKS": {
+      "syntax": "SPAWN_BLOCKS:<MATERIAL>:<DAMAGE>",
+      "description": "Spawn flood of falling blocks from above"
+    },
+    "SPAWN_ENTITY": {
+      "syntax": "SPAWN_ENTITY:<ENTITY>",
+      "description": "Spawn an entity"
+    },
+    "STEAL_EXP": {
+      "syntax": "STEAL_EXP:<AMOUNT>",
+      "description": "Steal EXP from one person for another"
+    },
+    "STEAL_HEALTH": {
+      "syntax": "STEAL_HEALTH:<HEALTH>",
+      "description": "Steal health from one entity for another"
+    },
+    "STEAL_MONEY": {
+      "syntax": "STEAL_MONEY:<AMOUNT>",
+      "description": "Steal Money from one person for another"
+    },
+    "STOP_KNOCKBACK": {
+      "syntax": "STOP_KNOCKBACK",
+      "description": "Stop entity's knockback"
+    },
+    "SUBTITLE": {
+      "syntax": "SUBTITLE:<TEXT>",
+      "description": "Send a subtitle"
+    },
+    "TAKE_AWAY": {
+      "syntax": "TAKE_AWAY:<MATERIAL>:<AMOUNT>",
+      "description": "Take item away from player"
+    },
+    "TELEPORT_BEHIND": {
+      "syntax": "TELEPORT_BEHIND",
+      "description": "Teleport behind other entity"
+    },
+     "TELEPORT": {
+      "syntax": "TELEPORT",
+      "description": "Teleport to location"
+    },
+    "TITLE": {
+      "syntax": "TITLE:<TEXT>",
+      "description": "Send a title"
+    },
+    "TNT": {
+      "syntax": "TNT:[DAMAGE]:[RADIUS]",
+      "description": "Create a TNT explosion"
+    },
+    "TOTEM": {
+      "syntax": "TOTEM:[TICKS]:[TICKS]:[TICKS]",
+      "description": "Activate the Totem of Undying effect"
+    },
+    "TP_DROPS": {
+      "syntax": "TP_DROPS",
+      "description": "Teleport drops to inventory"
+    },
+    "SET_VARIABLE": {
+      "syntax": "SET_VARIABLE:<NAME>:<VALUE>",
+      "description": "Set a custom variable"
+    },
+    "GUARD": {
+      "syntax": "GUARD:<ENTITY>:<SECONDS>:<AMOUNT>:<NAME>",
+      "description": "Spawn a mob guarding player"
+    },
+    "STEAL_GUARD": {
+      "syntax": "STEAL_GUARD",
+      "description": "Steal a guard from player"
+    },
+    "WEB_WALKER": {
+      "syntax": "WEB_WALKER",
+      "description": "Walk through cobwebs fast"
+    },
+    "WALK_SPEED": {
+      "syntax": "WALK_SPEED:<SPEED>:[TICKS]",
+      "description": "Sets the players walk speed (from -1 to 1) without applying potion"
+    },
+    "WATER_WALKER": {
+      "syntax": "WATER_WALKER:<RADIUS>",
+      "description": "Walk on water"
+    },
+    "LAVA_WALKER": {
+      "syntax": "LAVA_WALKER:<RADIUS>",
+      "description": "Walk on lava"
+    },
+    "KEEP_ON_DEATH": {
+      "syntax": "KEEP_ON_DEATH",
+      "description": "Keep item on death"
+    },
+    "RESET_COMBO": {
+      "syntax": "RESET_COMBO",
+      "description": "Reset combo for user"
+    },
+    "PARTICLE_LINE": {
+      "syntax": "PARTICLE_LINE:<PARTICLE>:<AMOUNT>:<POINTS>",
+      "description": "Draw particles line from one entity to other"
+    },
+    "ADD_ENCHANT": {
+      "syntax": "ADD_ENCHANT:<ENCHANT>:<LEVEL>",
+      "description": "Add enchant to item"
+    },
+    "REMOVE_ENCHANT": {
+      "syntax": "REMOVE_ENCHANT:<ENCHANT>",
+      "description": "Remove enchant from item"
+    },
+    "ADD_SOULS": {
+      "syntax": "ADD_SOULS:<AMOUNT>",
+      "description": "Add souls to item"
+    },
+    "REMOVE_SOULS": {
+      "syntax": "REMOVE_SOULS:<AMOUNT>",
+      "description": "Remove souls from item"
+    }
+  }
+}
