@@ -1,28 +1,9 @@
-  {
-    "name": "=",
-    "description": "Equals to\n\nExample: `%player world% = world`"
-  },
-  {
-    "name": "<",
-    "description": "Less than\n\nExample: `%player y% < 20`"
-  },
-  {
-    "name": "<=",
-    "description": "Less than or equals to\n\nExample: `%player y% <= 22`"
-  },
-  {
-    "name": ">",
-    "description": "More than\n\nExample: `%player y% > 20`"
-  },
-  {
-    "name": ">=",
-    "description": "More than or equals to\n\nExample: `%player y% >= 20`"
-  },
-  {
-    "name": "contains",
-    "description": "Variable contains string\n\nExample: `%player world% contains nether`"
-  },
-  {
-    "name": "matchesregex",
-    "description": "Variable matches Regular Expression\n\nExample: `%player name% matchesregex ^.\\w+` (name starts with a dot)"
-  }
+{
+  "=": { "description": "Equals to" },
+  "<": { "description": "Less than" },
+  "<=": { "description": "Less than or equals to" },
+  ">": { "description": "More than" },
+  ">=": { "description": "More than or equals to" },
+  "contains": { "description": "Variable contains string" },
+  "matchesregex": { "description": "Variable matches Regular Expression" }
+}
