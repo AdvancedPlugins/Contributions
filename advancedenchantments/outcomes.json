@@ -1,0 +1,26 @@
+[
+  {
+    "name": "%force%",
+    "description": "Force ability to activate, ignoring cooldown and chances"
+  },
+  {
+    "name": "%allow%",
+    "description": "Allow ability to activate, not ignoring cooldown or chances"
+  },
+  {
+    "name": "%continue%",
+    "description": "Continue to the next condition"
+  },
+  {
+    "name": "%stop%",
+    "description": "Stop the ability's activation"
+  },
+  {
+    "name": "%chance%+x",
+    "description": "Add chance to ability's activation (e.g., `%chance%+5`)"
+  },
+  {
+    "name": "%chance%-x",
+    "description": "Remove chance from ability's activation (e.g., `%chance%-5`)"
+  }
+]
