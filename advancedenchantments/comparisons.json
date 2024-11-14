@@ -1,4 +1,3 @@
-[
   {
     "name": "=",
     "description": "Equals to\n\nExample: `%player world% = world`"
@@ -27,4 +26,3 @@
     "name": "matchesregex",
     "description": "Variable matches Regular Expression\n\nExample: `%player name% matchesregex ^.\\w+` (name starts with a dot)"
   }
-]
