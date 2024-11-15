@@ -1,281 +1,351 @@
 {
     "%can break%": {
+        "display": "%can break%",
         "description": "True if a player can break the block",
         "args": []
     },
     "%faction land%": {
+        "display": "%faction land%",
         "description": "Gets faction land player is in",
         "args": []
     },
     "%food%": {
+        "display": "%food%",
         "description": "Food level of player",
         "args": []
     },
     "%is bleeding%": {
+        "display": "%is bleeding%",
         "description": "True if the player is bleeding via McMMO",
         "args": []
     },
     "%helmet%": {
+        "display": "%helmet%",
         "description": "Equipped Helmet",
         "args": []
     },
     "%chestplate%": {
+        "display": "%chestplate%",
         "description": "Equipped Chestplate",
         "args": []
     },
     "%leggings%": {
+        "display": "%leggings%",
         "description": "Equipped Leggings",
         "args": []
     },
     "%boots%": {
+        "display": "%boots%",
         "description": "Equipped Boots",
         "args": []
     },
     "%is blocking%": {
+        "display": "%is blocking%",
         "description": "True if the player is blocking",
         "args": []
     },
     "%is flying%": {
+        "display": "%is flying%",
         "description": "True if the player is flying",
         "args": []
     },
     "%is sneaking%": {
+        "display": "%is sneaking%",
         "description": "True if the player is sneaking",
         "args": []
     },
-    "%level of skill <skill>%": {
+    "%level of skill%": {
+        "display": "%level of skill <skill>%",
         "description": "Level of a player's McMMO skill",
         "args": ["skill"]
     },
     "%permissions%": {
+        "display": "%permissions%",
         "description": "All player's permissions",
         "args": []
     },
     "%is op%": {
+        "display": "%is op%",
         "description": "True if player has OP",
         "args": []
     },
     "%block below%": {
+        "display": "%block below%",
         "description": "Block type player/mob is standing on",
         "args": []
     },
     "%trigger type%": {
+        "display": "%trigger type%",
         "description": "Type of trigger",
         "args": []
     },
     "%combo%": {
+        "display": "%combo%",
         "description": "Current combo",
         "args": []
     },
     "%custom name%": {
+        "display": "%custom name%",
         "description": "Custom name of player/mob",
         "args": []
     },
-    "%has enchantment in hand of <enchant>%": {
+    "%has enchantment in hand%": {
+        "display": "%has enchantment in hand of <enchant>%",
         "description": "Whether player/mob has an enchantment on the item in its main hand",
         "args": ["enchant"]
     },
-    "%has enchantment in hand of <enchant> level <level>%": {
+    "%has enchantment in hand level%": {
+        "display": "%has enchantment in hand of <enchant> level <level>%",
         "description": "Whether player/mob has an enchantment of a specific level on the item in its main hand",
         "args": ["enchant", "level"]
     },
-    "%has enchantment in <armor slot> of <enchantment>%": {
+    "%has enchantment in armor slot%": {
+        "display": "%has enchantment in <armor slot> of <enchantment>%",
         "description": "Whether player/mob has an enchantment on the item in a specific armor slot",
         "args": ["armor slot", "enchantment"]
     },
-    "%has potion effect <effect>%": {
+    "%has potion effect%": {
+        "display": "%has potion effect <effect>%",
         "description": "Whether player/mob has a potion effect",
         "args": ["effect"]
     },
-    "%item in hand level <enhantment>%": {
+    "%item in hand level%": {
+        "display": "%item in hand level <enchantment>%",
         "description": "Level of enchantment on item in main hand",
         "args": ["enchantment"]
     },
     "%health%": {
+        "display": "%health%",
         "description": "The health of player/mob",
         "args": []
     },
     "%health percentage%": {
+        "display": "%health percentage%",
         "description": "Percentage of health left",
         "args": []
     },
     "%is critical%": {
+        "display": "%is critical%",
         "description": "Whether attack was a critical hit",
         "args": []
     },
     "%is gliding%": {
+        "display": "%is gliding%",
         "description": "Whether player/mob is gliding",
         "args": []
     },
     "%is holding%": {
+        "display": "%is holding%",
         "description": "Type of item currently held by player/mob",
         "args": []
     },
     "%is hostile%": {
+        "display": "%is hostile%",
         "description": "Whether mob is hostile",
         "args": []
     },
     "%is damageable%": {
+        "display": "%is damageable%",
         "description": "Whether the player/mob can be damaged",
         "args": []
     },
     "%is on fire%": {
+        "display": "%is on fire%",
         "description": "Whether player/mob is on fire",
         "args": []
     },
     "%is removal%": {
+        "display": "%is removal%",
         "description": "Whether effect is removal (EFFECT_STATIC, HELD, SHIFT, SPRINT)",
         "args": []
     },
     "%is under water%": {
+        "display": "%is under water%",
         "description": "Whether player/mob is underwater",
         "args": []
     },
     "%item slot%": {
+        "display": "%item slot%",
         "description": "Slot of item that triggered enchant",
         "args": []
     },
     "%max health%": {
+        "display": "%max health%",
         "description": "Maximum health of player/mob",
         "args": []
     },
     "%mob type%": {
+        "display": "%mob type%",
         "description": "Type of mob",
         "args": []
     },
     "%name%": {
+        "display": "%name%",
         "description": "Name of player/mob",
         "args": []
     },
     "%nearby mobs%": {
+        "display": "%nearby mobs%",
         "description": "Amount of mobs in a 10 block radius",
         "args": []
     },
     "%offhand item%": {
+        "display": "%offhand item%",
         "description": "Type of item currently held in offhand by player/mob",
         "args": []
     },
     "%players%": {
+        "display": "%players%",
         "description": "Amount of players in a 10 block radius",
         "args": []
     },
-    "%potion effect level <effect> <level>%": {
+    "%potion effect level%": {
+        "display": "%potion effect level <effect> <level>%",
         "description": "Whether player/mob has a potion effect of a specific level",
         "args": ["effect", "level"]
     },
     "%time%": {
+        "display": "%time%",
         "description": "Time of the world",
         "args": []
     },
     "%x%": {
+        "display": "%x%",
         "description": "X coordinate of player/mob",
         "args": []
     },
     "%y%": {
+        "display": "%y%",
         "description": "Y coordinate of player/mob",
         "args": []
     },
     "%z%": {
+        "display": "%z%",
         "description": "Z coordinate of player/mob",
         "args": []
     },
     "%x double%": {
+        "display": "%x double%",
         "description": "More precise X coordinate of player/mob",
         "args": []
     },
     "%y double%": {
+        "display": "%y double%",
         "description": "More precise Y coordinate of player/mob",
         "args": []
     },
     "%z double%": {
+        "display": "%z double%",
         "description": "More precise Z coordinate of player/mob",
         "args": []
     },
     "%block tags%": {
+        "display": "%block tags%",
         "description": "Array of tags a target block has",
         "args": []
     },
     "%is riding%": {
+        "display": "%is riding%",
         "description": "Whether player/mob is riding player/mob (or is a passenger)",
         "args": []
     },
     "%passengers%": {
+        "display": "%passengers%",
         "description": "Passengers of the player/mob",
         "args": []
     },
     "%is headshot%": {
+        "display": "%is headshot%",
         "description": "Whether an arrow/trident hit was a headshot",
         "args": []
     },
     "%force%": {
+        "display": "%force%",
         "description": "Force of bow when firing arrow",
         "args": []
     },
     "%damaged from behind%": {
+        "display": "%damaged from behind%",
         "description": "If victim was damaged from behind by enemy",
         "args": []
     },
     "%projectile type%": {
+        "display": "%projectile type%",
         "description": "Type of projectile ('arrow' or 'trident')",
         "args": []
     },
     "%exp%": {
+        "display": "%exp%",
         "description": "Amount of EXP to give/drop",
         "args": []
     },
     "%caught%": {
+        "display": "%caught%",
         "description": "Type of item player caught",
         "args": []
     },
     "%maximum durability%": {
+        "display": "%maximum durability%",
         "description": "Maximum durability of item",
         "args": []
     },
     "%block x%": {
+        "display": "%block x%",
         "description": "X coordinate of block broken",
         "args": []
     },
     "%block y%": {
+        "display": "%block y%",
         "description": "Y coordinate of block broken",
         "args": []
     },
     "%block z%": {
+        "display": "%block z%",
         "description": "Z coordinate of block broken",
         "args": []
     },
     "%block type%": {
+        "display": "%block type%",
         "description": "Type of block",
         "args": []
     },
     "%block type lowercase%": {
+        "display": "%block type lowercase%",
         "description": "Type of block but all letters are lowercase",
         "args": []
     },
     "%block drop type%": {
+        "display": "%block drop type%",
         "description": "Type of item block will drop",
         "args": []
     },
     "%is crop%": {
+        "display": "%is crop%",
         "description": "Whether broken block was a crop",
         "args": []
     },
     "%is fully grown%": {
+        "display": "%is fully grown%",
         "description": "Whether broken crop was fully grown",
         "args": []
     },
     "%block location%": {
+        "display": "%block location%",
         "description": "Location of the block (used in location parameter)",
         "args": []
     },
     "%damage%": {
+        "display": "%damage%",
         "description": "Final damage",
         "args": []
     },
     "%raw damage%": {
+        "display": "%raw damage%",
         "description": "Damage before armor",
         "args": []
     },
     "%damage cause%": {
+        "display": "%damage cause%",
         "description": "Cause of damage",
         "args": []
     }
